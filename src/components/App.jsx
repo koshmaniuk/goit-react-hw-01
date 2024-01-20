@@ -1,35 +1,6 @@
-const Profile = props => {
-  return (
-      <div className="profile">
-      <div className="description">
-        <img
-          src={props.image}
-          alt="User avatar"
-          className="avatar"
-        />
-        <p className="name">{props.name}</p>
-        <p className="tag">@{props.tag}</p>
-        <p className="location">{props.location}</p>
-      </div>
-    
-    
-      <ul className="stats">
-        <li>
-          <span className="label">Followers</span>
-          <span className="value">{props.stats.followers}</span>
-        </li>
-        <li>
-          <span className="label">Views</span>
-          <span className="value">{props.stats.views}</span>
-        </li>
-        <li>
-          <span className="label">Likes</span>
-          <span className="value">{props.stats.likes}</span>
-        </li>
-      </ul>
-    </div>
-  );
-};
+import { Profile } from './Profile/Profile'
+import { FriendList } from './FriendList/FriendList'
+
 
 const userData = {
   username: "Jacques Gluke",
@@ -43,9 +14,42 @@ const userData = {
   }
 };
 
+const friends = [
+  {
+    avatar: "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    name: "Mango",
+    isOnline: true,
+    id: 1812
+  },
+  {
+    avatar: "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    name: "Kiwi",
+    isOnline: false,
+    id: 1137
+  },
+  {
+    avatar: "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    name: "Ajax",
+    isOnline: true,
+    id: 1213
+  },
+  {
+    avatar: "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    name: "Jay",
+    isOnline: true,
+    id: 1714
+  },
+  {
+    avatar: "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
+    name: "Poly",
+    isOnline: false,
+    id: 1284
+  }
+];
+
 const App = () => {
   return (
-    <>
+    <div>
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -53,7 +57,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
-    </>
+      <FriendList friends={friends}/>
+    </div>
   );
 };
 
