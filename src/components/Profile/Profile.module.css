@@ -1,0 +1,17 @@
+.profile {
+    border: 5px solid grey;
+    border-radius: 16px;
+    background-color: #5F9EA0;
+    width: 400px;
+}
+
+.avatar {
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}

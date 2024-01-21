@@ -1,0 +1,20 @@
+.item {
+    padding: 20px;
+    font-size: 22px;
+}
+
+.name {
+margin: 0;
+}
+
+.status {
+
+}
+
+.status.isOnline {
+    color: green;
+}
+
+.status.isOffline {
+    color: red;
+}
