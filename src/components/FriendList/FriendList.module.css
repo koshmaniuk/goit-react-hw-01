@@ -1,11 +1,11 @@
 .friendList {
-    width: 640px;
-    display: flex;
-    justify-content: space-between  ;
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .friend {
-    border: 1px solid orange;
-    border-radius: 6px;
-    background-color: grey  ;
+  border: 1px solid orange;
+  border-radius: 6px;
+  background-color: grey;
 }

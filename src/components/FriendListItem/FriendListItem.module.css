@@ -1,21 +1,21 @@
 .item {
-    padding: 20px;
-    font-size: 22px;
+  padding: 20px;
+  font-size: 22px;
 }
 
 .name {
-margin: 0;
+  margin: 0;
 }
 
 .status {
- margin: 10px;
- font-size: 18px;
+  margin: 10px;
+  font-size: 18px;
 }
 
 .status.isOnline {
-    color: rgb(15, 214, 15);
+  color: rgb(15, 214, 15);
 }
 
 .status.isOffline {
-    color: orange;
+  color: orange;
 }

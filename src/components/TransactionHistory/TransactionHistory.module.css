@@ -1,16 +1,17 @@
-table, th, td {
-    border: 1px solid;
-  }
+table,
+th,
+td {
+  border: 1px solid;
+}
 
-  table {
-    width: 640px;
-    border-collapse: collapse;
-  }
-  .transactionHistory {
+table {
+  width: 640px;
+  border-collapse: collapse;
+}
+.transactionHistory {
   border-radius: 3px;
-    
 }
 
 .head {
-    background-color: grey;
+  background-color: grey;
 }
