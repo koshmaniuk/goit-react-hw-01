@@ -7,11 +7,11 @@ export const Profile = props => {
           src={props.image}
           alt="User avatar"
           className={css.avatar}
-          width={250}
+          width={150}
         />
-        <p className="name">{props.name}</p>
-        <p className="tag">@{props.tag}</p>
-        <p className="location">{props.location}</p>
+        <p className={css.name}>{props.name}</p>
+        <p className={css.tag}>@{props.tag}</p>
+        <p className={css.location}>{props.location}</p>
       </div>
     
     
@@ -19,17 +19,17 @@ export const Profile = props => {
         <li>
           <span className="label">Followers</span>
           <br />
-          <span className="value">{props.stats.followers}</span>
+          <span className={css.value}>{props.stats.followers}</span>
         </li>
         <li>
           <span className="label">Views</span>
           <br />
-          <span className="value">{props.stats.views}</span>
+          <span className={css.value}>{props.stats.views}</span>
         </li>
         <li>
           <span className="label">Likes</span>
           <br />
-          <span className="value">{props.stats.likes}</span>
+          <span className={css.value}>{props.stats.likes}</span>
         </li>
       </ul>
     </div>

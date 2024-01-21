@@ -12,9 +12,9 @@ margin: 0;
 }
 
 .status.isOnline {
-    color: green;
+    color: rgb(15, 214, 15);
 }
 
 .status.isOffline {
-    color: red;
+    color: orange;
 }

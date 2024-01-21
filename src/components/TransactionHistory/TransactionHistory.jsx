@@ -3,7 +3,7 @@ export const TransactionHistory = ({ items }) => {
     console.log(items)
     return (
         <table className={css.transactionHistory}>
-  <thead>
+  <thead className={css.head}>
     <tr>
       <th>Type</th>
       <th>Amount</th>

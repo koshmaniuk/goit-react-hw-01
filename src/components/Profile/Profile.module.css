@@ -1,17 +1,36 @@
 .profile {
-    border: 5px solid grey;
+    border: 1px solid orange;
     border-radius: 16px;
-    background-color: #5F9EA0;
-    width: 400px;
+    background-color: grey;
+    width: 332px;
+    padding: 20px;
 }
 
 .avatar {
     border-radius: 100%;
-    background-color: grey;
+    background-color: orange;
 }
 
 .stats {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    font-size: 18px;
+justify-content: space-between;
+margin: 0 20px;}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tag {
+    font-size: 20px;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.value {
+    font-weight: bold;
 }
